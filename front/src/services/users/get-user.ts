@@ -1,5 +1,5 @@
 import type { ApiContext, User } from 'types/data'
-import { fetcher } from 'utils'
+import { fetcher } from 'utils/data'
 
 export type GetUserParams = {
 	/**
