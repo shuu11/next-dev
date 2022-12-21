@@ -74,14 +74,14 @@ export type CSSPropertyJustifyContent =
 
 export type CSSPropertyFlexWrap = CSSPropertyGlobals | 'nowrap' | 'wrap' | 'wrap-reverse'
 
-export type CSSpropertyFlexDirection =
+export type CSSPropertyFlexDirection =
 	| CSSPropertyGlobals
 	| 'column'
 	| 'column-reverse'
 	| 'row'
 	| 'row-reverse'
 
-export type CSSpropertyJustifySelf =
+export type CSSPropertyJustifySelf =
 	| CSSPropertyGlobals
 	| SelfPosition
 	| 'auto'
