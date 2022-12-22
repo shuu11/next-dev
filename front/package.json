@@ -9,7 +9,7 @@
 		"test": "jest",
 		"lint": "next lint --dir src/pages",
 		"format": "next lint --fix --dir src/pages",
-		"storybook": "start-storybook -p 6006",
+		"sb": "start-storybook -p 6006",
 		"build-storybook": "build-storybook"
 	},
 	"dependencies": {
