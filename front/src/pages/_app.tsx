@@ -6,6 +6,7 @@ import { createGlobalStyle } from 'styled-components'
 import useSWR from 'swr'
 import ContentLoader from 'react-content-loader'
 import HomeIcon from '@mui/icons-material/Home'
+import CheckBox from 'components/molecules/CheckBox'
 
 // グローバルのスタイル
 const GlobalStyle = createGlobalStyle`

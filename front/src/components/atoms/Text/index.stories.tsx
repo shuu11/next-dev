@@ -123,10 +123,11 @@ export default {
 			},
 		},
 	},
-}
+} as ComponentMeta<typeof Text>
 
 const Template: ComponentStory<typeof Text> = (args) => <Text {...args}></Text>
 
+// サンプルテキスト
 const longText = `It is a long established fact that a reader will be
 distracted by the readable content of a page when looking at its layout.
 The point of using Lorem Ipsum is that it has a more - or - less normal
