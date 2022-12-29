@@ -8,6 +8,7 @@ export type TextVariant = 'extraSmall' | 'small' | 'medium' | 'mediumLarge' | 'l
 export type TextProps = {
 	variant?: TextVariant
 	fontSize?: Responsive<FontSize>
+	fontWeight?: Responsive<string>
 	letterSpacing?: Responsive<LetterSpacing>
 	lineHeight?: Responsive<LineHeight>
 	textAlign?: Responsive<string>
